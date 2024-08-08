@@ -3,6 +3,7 @@ import { cyan, purple } from "@mui/material/colors";
 
 export const DarkTheme = createTheme({
   palette: {
+    mode: 'dark',
     primary: {
       main: purple[700],
       dark: purple[800],
@@ -21,5 +22,11 @@ export const DarkTheme = createTheme({
       default: '#202124',
       paper: '#303134',
     },
-  }
+  },
+  typography: {
+    allVariants: {
+      color: '#ffffff',
+      fontFamily: 'Roboto, sans-serif',
+    }
+  },
 });

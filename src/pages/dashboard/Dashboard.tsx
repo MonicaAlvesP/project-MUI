@@ -1,4 +1,4 @@
-import { FerramentasDaListagem } from "../../shared/components/ferramentas-da-listagem/FerramentasDaListagem";
+import { FerramentasDeDetalhe } from "../../shared/components";
 import { LayoutBaseDePagina } from "../../shared/layouts";
 
 
@@ -8,10 +8,7 @@ export const Dashboard = () => {
     <LayoutBaseDePagina
       titulo="Página Inicial"
       barraDeFerramentas={(
-        <FerramentasDaListagem
-          mostrarInputDeBusca
-          textoBotaoNovo="Nova"
-        />
+        <FerramentasDeDetalhe />
       )}
     // Aqui é passado o título da página e a barra de ferramentas.
     // O título é exibido no topo da página.

@@ -8,7 +8,10 @@ export const Dashboard = () => {
     <LayoutBaseDePagina
       titulo="Página Inicial"
       barraDeFerramentas={(
-        <FerramentasDeDetalhe />
+        <FerramentasDeDetalhe
+          mostrarBotaoSalvarEFechar
+          mostrarBotaoSalvarEFecharCarregando
+        />
       )}
     // Aqui é passado o título da página e a barra de ferramentas.
     // O título é exibido no topo da página.

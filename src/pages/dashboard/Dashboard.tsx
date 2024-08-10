@@ -10,7 +10,8 @@ export const Dashboard = () => {
       barraDeFerramentas={(
         <FerramentasDeDetalhe
           mostrarBotaoSalvarEFechar
-          mostrarBotaoSalvarEFecharCarregando
+          mostrarBotaoNovo
+          mostrarBotaoVoltar={false}
         />
       )}
     // Aqui é passado o título da página e a barra de ferramentas.

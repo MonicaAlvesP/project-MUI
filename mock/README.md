@@ -21,4 +21,8 @@ npx json-server -w -p 3333 ./mock/database.json
 
 - As alterações feitas no `database.json` serão refletidas em tempo real no servidor.
 
-- Após isso em seu arquivo `package.json` configure no `script` o seguinte `"mock": "json-server -w -p 3333 ./mock/database.json"``e a partir de então, toda vez que você desejar iniciar o servidor só chame `npm run mock`.
+- Após isso em seu arquivo `package.json` configure no `script` o seguinte: 
+```
+"mock": "json-server -w -p 3333 ./mock/database.json"
+``` 
+e a partir de então, toda vez que você desejar iniciar o servidor só chame `npm run mock`.

@@ -2,7 +2,7 @@
 
 O projeto ultiliza o 'json-server' para servir uma API mock a partir de um arquivo JSON. Siga os passos abaixo para iniciar o servidor.
 
-## Iniciar o seridor
+## Iniciar o servidor
 1. Abra uma nova aba no terminal.
 2. Execute o seguinte comando:
 ```

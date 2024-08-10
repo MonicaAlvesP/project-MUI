@@ -20,3 +20,5 @@ npx json-server -w -p 3333 ./mock/database.json
 - O `json-server` foi instalado como uma dependência local do projeto, e é executado ultilizando o `npx` para garantir que a versão correta seja ultilizada.
 
 - As alterações feitas no `database.json` serão refletidas em tempo real no servidor.
+
+- Após isso em seu arquivo `package.json` configure no `script` o seguinte `"mock": "json-server -w -p 3333 ./mock/database.json"``e a partir de então, toda vez que você desejar iniciar o servidor só chame `npm run mock`.
